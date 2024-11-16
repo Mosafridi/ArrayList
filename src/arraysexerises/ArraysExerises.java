@@ -18,7 +18,7 @@ public class ArraysExerises {
         
         Scanner sc = new Scanner(System.in);
         
-        
+        // 2D array to store in tublar form Rows and Columns
        int[][] list = {{1,2,3},{4,5,6},{7,8,9}};
         for (int i = 0; i < list.length; i++) {
             for (int j = 0; j < list.length; j++) {
@@ -27,7 +27,7 @@ public class ArraysExerises {
             }
             
         }
-       
+       // ArrayList to store integer and String
        ArrayList<Object> al = new ArrayList<Object>();
        
        al.add(String.valueOf(1));
@@ -39,6 +39,7 @@ public class ArraysExerises {
             System.out.println(al.get(i)+ " ");
             
         }
+        // ArrayList to store Integer
        ArrayList<Integer> ar = new ArrayList<Integer>();
        ar.add(1);
         ar.add(2);
